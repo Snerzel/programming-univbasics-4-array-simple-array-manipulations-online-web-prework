@@ -23,7 +23,8 @@ dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
 end
 
 def using_shift(array)
-
+my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+my_favorite_cities.shift
 end
 
 def shift_with_args(array)
