@@ -35,9 +35,9 @@ array.shift(brands_removed)
 end
 
 def using_concat(array)
-my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
+["raindrops on roses", "whiskers on kittens"]
 more_favs = ["sports cars", "flatiron school"]
-more_favs.concat(my_favorite_things)
+more_favs.concat(array)
 end
 
 def using_insert(array, element)
