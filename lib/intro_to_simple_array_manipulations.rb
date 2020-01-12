@@ -39,9 +39,8 @@ array1.concat(array2)
 end
 
 def using_insert(array, element)
-["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-another_language = "Python"
-array.insert(another_language)
+
+array.insert(4,element)
 end
 
 def using_uniq(array)
