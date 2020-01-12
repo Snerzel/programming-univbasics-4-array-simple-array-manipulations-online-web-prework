@@ -55,6 +55,7 @@ no_offense_steven = "Steven"
 instructors.delete(no_offense_steven)
 end
 
-def using_delete_at
-
+def using_delete_at(array, integer)
+famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+famous_robots.delete_at(2)
 end
