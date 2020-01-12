@@ -6,9 +6,9 @@ colors_in_the_rainbow.push(next_color)
 end
 
 def using_unshift(array, string)
-  artists = ["Hozier", "Ariana Grande", "Usher","Other"]
-  next_artist = "Staten Island"
-  artists.unshift(next_artist)
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  new_neighborhood = "Staten Island"
+  bouroughs_in_nyc.unshift(new_neighborhood)
 end
 
 def using_pop(array)
