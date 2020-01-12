@@ -34,8 +34,8 @@ brands_removed = ["Blue Bell Creameries", "Ben & Jerry's"]
 array.shift(brands_removed)
 end
 
-def using_concat(["raindrops on roses", "whiskers on kittens"] ,array)
-
+def using_concat(array)
+["raindrops on roses", "whiskers on kittens"]
 more_favs = ["sports cars", "flatiron school"]
 more_favs.concat(array)
 end
