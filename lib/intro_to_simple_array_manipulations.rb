@@ -31,7 +31,7 @@ end
 def shift_with_args(array)
 ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 brands_removed = ["Blue Bell Creameries", "Ben & Jerry's"]
-array.shift(brands_removed)
+array.shift(2)
 end
 
 def using_concat(array)
