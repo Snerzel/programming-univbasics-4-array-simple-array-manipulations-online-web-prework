@@ -42,8 +42,8 @@ end
 
 def using_insert(array, element)
 ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-another_language = "Python"
-array.insert(another_language)
+"Python"
+array.insert(element)
 end
 
 def using_uniq(array)
