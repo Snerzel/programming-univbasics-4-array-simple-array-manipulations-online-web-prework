@@ -35,9 +35,7 @@ array.shift(2)
 end
 
 def using_concat(array1, array2)
-["raindrops on roses", "whiskers on kittens"]
-more_favs = ["sports cars", "flatiron school"]
-more_favs.concat(array)
+array1.concat(array2)
 end
 
 def using_insert(array, element)
