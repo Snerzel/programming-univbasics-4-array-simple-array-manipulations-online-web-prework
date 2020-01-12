@@ -13,7 +13,7 @@ end
 
 def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop(continents.size)
+  using_pop(continents.size)
 
 end
 
@@ -28,5 +28,5 @@ my_favorite_cities.shift
 end
 
 def shift_with_args(array)
-
+ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 end
