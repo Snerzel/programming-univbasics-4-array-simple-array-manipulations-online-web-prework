@@ -44,7 +44,8 @@ def using_uniq
 end
 
 def using_flatten
-
+instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+instruments.flatten
 end
 
 def using_delete
