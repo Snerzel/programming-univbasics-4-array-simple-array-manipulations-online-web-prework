@@ -57,12 +57,13 @@ instruments.flatten
 end
 
 def using_delete(array, string)
-instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 no_offense_steven = "Steven"
-instructors.delete(no_offense_steven)
+array.delete(no_offense_steven)
 end
 
 def using_delete_at(array, integer)
 famous_robots = ["Johnny 5", "R2D2", "Robocop"]
 famous_robots.delete_at(2)
+
 end
