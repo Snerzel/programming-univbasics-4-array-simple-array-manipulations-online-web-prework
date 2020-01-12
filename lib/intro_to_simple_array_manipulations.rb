@@ -43,7 +43,7 @@ def using_uniq
 
 end
 
-def using_flatten
+def using_flatten(array)
 instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 instruments.flatten
 end
