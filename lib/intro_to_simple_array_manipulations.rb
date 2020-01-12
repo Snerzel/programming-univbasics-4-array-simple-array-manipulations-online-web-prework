@@ -31,7 +31,7 @@ def shift_with_args(array)
 ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
 end
 
-def using_concat(array, array)
+def using_concat(array)
 my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
 more_favs = ["sports cars", "flatiron school"]
 my_favorite_things.concat(more_favs)
